@@ -32,10 +32,6 @@ const ProgrressBar = () => {
     console.log(newItem);
     setData([...data, newItem])
   }
-
-  useEffect(() => {
-  }, [data])
-
   return (
     <div className="wrapper col-xl-10  col-lg-10 col-md-10 col-sm-10 col-10">
       <div className="progressBar">
